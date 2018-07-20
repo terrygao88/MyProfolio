@@ -1,3 +1,7 @@
+var form = document.getElementById('contactForm');
+
 function myFunction() {
-    alert("Thank you for sending me a message!");
+  if (form.checkValidity()) {
+    alert("Adding Succesful!");
+  }
 }
